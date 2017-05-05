@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC ID</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Version No.</string>
+    <string name="ProductName">&quot;Product Name&quot;</string>
+    <string name="Price">&quot;Price&quot;</string>
+    <string name="Description">&quot;Description&quot;</string>
+    <string name="CreateProduct">&quot;Create Product&quot;</string>
+
+</resources>

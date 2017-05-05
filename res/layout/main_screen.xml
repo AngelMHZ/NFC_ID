@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+ 
+    <!--  Dashboard screen with Four buttons -->
+    
+    <!--  Button to view NFC screen -->
+    <Button android:id="@+id/btnReceiveNFCID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Receive ID"
+        android:layout_marginTop="25dip"/>
+    
+    <Button android:id="@+id/btnSendNFCID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send ID"
+        android:layout_marginTop="25dip"/>
+    
+    <!--  Button to view all products screen -->
+    <Button android:id="@+id/btnViewProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Entries"
+        android:layout_marginTop="25dip"/>
+ 
+    <!--  Button to create a new product screen -->
+    <Button android:id="@+id/btnCreateProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Entry"
+        android:layout_marginTop="25dip"/>
+ 
+</LinearLayout>
